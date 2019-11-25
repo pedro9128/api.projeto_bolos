@@ -5,5 +5,5 @@ const app = require('./app');
 const server = http.createServer(app);
 
 server.listen(3100, () => {
-    console.log("Connection established")
+    console.log("Connection established. Listening on port 3100.")
 });

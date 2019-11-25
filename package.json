@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon server.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -9,8 +9,11 @@
   },
   "name": "api.projeto_bolos",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "repository": "https://github.com/pedro9128/api.projeto_bolos.git",
   "author": "pedro coelho",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.1"
+  }
 }
